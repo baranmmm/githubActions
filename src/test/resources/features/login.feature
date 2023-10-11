@@ -18,6 +18,5 @@ Feature: Login Feature
       | Email                   | Password     |
       | aynuravci41@yopmail.com | Test123456!  |
       | aynuravci@yopmail.com   | Test1234567! |
-      | aynuravci23@yopmail.com | Test1234567! |
 
 
