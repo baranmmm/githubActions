@@ -3,7 +3,7 @@ name: CI
 on:
   pull_request:
     branches:
-      - master
+      - master  # Adjust to your repository's default branch
 
 jobs:
   build:
@@ -16,11 +16,11 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
-          java-version: '11'
-          distribution: 'adopt'
+          java-version: '11'  # Adjust to your project's Java version
+          distribution: 'adopt'  # Specify 'adopt' for AdoptOpenJDK
 
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn clean install  # Replace with your build command
 
       - name: Run Cucumber Tests
-        run: mvn test
+        run: mvn test  # Replace with your test command
