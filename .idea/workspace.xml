@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4758a6d2-0594-4d7e-9663-53d00462c940" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/talrise/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/talrise/runners/CukesRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="4758a6d2-0594-4d7e-9663-53d00462c940" name="Changes" comment="login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -70,6 +71,21 @@
       <option name="presentableId" value="Default" />
       <updated>1697024880035</updated>
     </task>
+    <task id="LOCAL-00001" summary="ci.yml">
+      <created>1697029843814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697029843814</updated>
+    </task>
+    <task id="LOCAL-00002" summary="login">
+      <created>1697029987443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697029987443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +98,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ci.yml" />
+    <MESSAGE value="login" />
+    <option name="LAST_COMMIT_MESSAGE" value="login" />
   </component>
 </project>
