@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "talrise/step_definitions",
         dryRun = false,
-        tags = "@personalAvailability"
+        tags = "@tc-9"
 )
 public class CukesRunner {
 }

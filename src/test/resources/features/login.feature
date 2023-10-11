@@ -37,7 +37,7 @@ Feature: Login Feature
   @tc-9
   Scenario: Test that Email and Password are written in the email and password boxes.
     Then the user should see "Email" text in the email box
-    Then the user should see "Password" text in the password box
+    Then the user should see "Passwords" text in the password box
 
   @tc-10
   Scenario: Test that visible "Need An Account?" text in front of "SIGN UP" link
