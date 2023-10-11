@@ -1,38 +1,31 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+/.idea/
+/*.iml/
+/target/
+/test-output/Screenshots/failed/
+# Compiled class files
+*.class
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# Log files
+*.log
+
+
+# IntelliJ project files
+.idea/
 *.iml
+*.iws
 *.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# Cucumber reports
+/cucumber-reports/
 
-### Mac OS ###
+# Selenium screenshots
+/test-output/Screenshots/
+
+# IntelliJ code inspection results
+/out/
+
+# OS generated files
 .DS_Store
+Thumbs.db
