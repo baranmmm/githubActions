@@ -12,7 +12,7 @@ Feature:As a user, I should be able to update "Country", "City",
     When User on the "Profile" page,sees "Personal Information" menu available
     And  User click on the pen icon,the menu expends
     And  User clicks on arrow,the menu collapse
-    Then User clicks on "Personal Information" menu expands again
+    Then User clicks on "Personal Informations" menu expands again
 
   @personalMenuPageElements
   Scenario: .When user opens "Personal Information" page "First Name", "Last Name", "LinkedIn",
